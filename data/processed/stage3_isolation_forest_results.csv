@@ -1,0 +1,51 @@
+run,section,model,scope,fault_type,n_rows,support,precision,recall,f1,tp,fp,fn,tn,n_flagged,anomaly_rate,roc_auc,avg_precision,episodes,ep_detected,ep_recall,mean_score,n_estimators,contamination,random_state,train_frac,split_time,n_features,seed
+stage3_iforest,overall,isolation_forest,train,ALL,2002.0,125.0,0.216,0.216,0.216,27.0,98.0,98.0,1779.0,125.0,0.06243756243756244,0.7592924880127864,0.20969832494026341,,,,,200,0.062438,42,0.7,2023-09-11 09:00:00,22,42
+stage3_iforest,overall,isolation_forest,test,ALL,859.0,54.0,0.07096774193548387,0.2037037037037037,0.10526315789473684,11.0,144.0,43.0,661.0,155.0,0.18044237485448195,0.536231884057971,0.09915422945450296,,,,,200,0.062438,42,0.7,2023-09-11 09:00:00,22,42
+stage3_iforest,overall,isolation_forest,full series,ALL,2861.0,179.0,0.1357142857142857,0.2122905027932961,0.1655773420479303,38.0,242.0,141.0,2440.0,280.0,0.09786787836420832,0.6990426555684701,0.1416852741080904,,,,,200,0.062438,42,0.7,2023-09-11 09:00:00,22,42
+stage3_iforest,per_fault_type,isolation_forest,full series,spike,,15.0,,0.8666666666666667,,13.0,,,,,,,,15.0,13.0,0.8666666666666667,0.5559151418515504,200,0.062438,42,0.7,2023-09-11 09:00:00,22,42
+stage3_iforest,per_fault_type,isolation_forest,full series,stuck_at,,42.0,,0.0,,0.0,,,,,,,,3.0,0.0,0.0,0.478537796386911,200,0.062438,42,0.7,2023-09-11 09:00:00,22,42
+stage3_iforest,per_fault_type,isolation_forest,full series,bias,,36.0,,0.25,,9.0,,,,,,,,3.0,3.0,1.0,0.5003919957016623,200,0.062438,42,0.7,2023-09-11 09:00:00,22,42
+stage3_iforest,per_fault_type,isolation_forest,full series,drift,,51.0,,0.21568627450980393,,11.0,,,,,,,,3.0,2.0,0.6666666666666666,0.4950406020837695,200,0.062438,42,0.7,2023-09-11 09:00:00,22,42
+stage3_iforest,per_fault_type,isolation_forest,full series,noise_burst,,35.0,,0.14285714285714285,,5.0,,,,,,,,3.0,1.0,0.3333333333333333,0.46910875352142534,200,0.062438,42,0.7,2023-09-11 09:00:00,22,42
+stage3_iforest,per_fault_type,isolation_forest,test,spike,,3.0,,1.0,,3.0,,,,,,,,3.0,3.0,1.0,0.5865593493310035,200,0.062438,42,0.7,2023-09-11 09:00:00,22,42
+stage3_iforest,per_fault_type,isolation_forest,test,stuck_at,,14.0,,0.0,,0.0,,,,,,,,1.0,0.0,0.0,0.4775217518241878,200,0.062438,42,0.7,2023-09-11 09:00:00,22,42
+stage3_iforest,per_fault_type,isolation_forest,test,bias,,22.0,,0.13636363636363635,,3.0,,,,,,,,2.0,2.0,1.0,0.491741888105329,200,0.062438,42,0.7,2023-09-11 09:00:00,22,42
+stage3_iforest,per_fault_type,isolation_forest,test,drift,,3.0,,0.0,,0.0,,,,,,,,1.0,0.0,0.0,0.4975065572579343,200,0.062438,42,0.7,2023-09-11 09:00:00,22,42
+stage3_iforest,per_fault_type,isolation_forest,test,noise_burst,,12.0,,0.4166666666666667,,5.0,,,,,,,,1.0,1.0,1.0,0.5007115538341411,200,0.062438,42,0.7,2023-09-11 09:00:00,22,42
+stage3_iforest,baseline_comparison,isolation_forest,test,ALL,,54.0,0.071,0.2037,0.1053,,,,,155.0,0.1804,,,,,,,200,0.062438,42,0.7,2023-09-11 09:00:00,22,42
+stage3_iforest,baseline_comparison,isolation_forest,full series,ALL,,179.0,0.1357,0.2123,0.1656,,,,,280.0,0.0979,,,,,,,200,0.062438,42,0.7,2023-09-11 09:00:00,22,42
+stage3_iforest,baseline_comparison,rule_flat_run,test,ALL,,54.0,0.9333,0.2593,0.4058,,,,,15.0,0.0175,,,,,,,200,0.062438,42,0.7,2023-09-11 09:00:00,22,42
+stage3_iforest,baseline_comparison,rule_flat_run,full series,ALL,,179.0,0.9333,0.2346,0.375,,,,,45.0,0.0157,,,,,,,200,0.062438,42,0.7,2023-09-11 09:00:00,22,42
+stage3_iforest,baseline_comparison,rule_step,test,ALL,,54.0,0.0561,0.1111,0.0745,,,,,107.0,0.1246,,,,,,,200,0.062438,42,0.7,2023-09-11 09:00:00,22,42
+stage3_iforest,baseline_comparison,rule_step,full series,ALL,,179.0,0.0857,0.1341,0.1046,,,,,280.0,0.0979,,,,,,,200,0.062438,42,0.7,2023-09-11 09:00:00,22,42
+stage3_iforest,baseline_comparison,rule_combined,test,ALL,,54.0,0.1639,0.3704,0.2273,,,,,122.0,0.142,,,,,,,200,0.062438,42,0.7,2023-09-11 09:00:00,22,42
+stage3_iforest,baseline_comparison,rule_combined,full series,ALL,,179.0,0.2037,0.3687,0.2624,,,,,324.0,0.1132,,,,,,,200,0.062438,42,0.7,2023-09-11 09:00:00,22,42
+stage3_iforest,detector_by_fault_type,isolation_forest,full series,spike,,,,0.867,,,,,,,,,,,,,,200,0.062438,42,0.7,2023-09-11 09:00:00,22,42
+stage3_iforest,detector_by_fault_type,isolation_forest,full series,stuck_at,,,,0.0,,,,,,,,,,,,,,200,0.062438,42,0.7,2023-09-11 09:00:00,22,42
+stage3_iforest,detector_by_fault_type,isolation_forest,full series,bias,,,,0.25,,,,,,,,,,,,,,200,0.062438,42,0.7,2023-09-11 09:00:00,22,42
+stage3_iforest,detector_by_fault_type,isolation_forest,full series,drift,,,,0.216,,,,,,,,,,,,,,200,0.062438,42,0.7,2023-09-11 09:00:00,22,42
+stage3_iforest,detector_by_fault_type,isolation_forest,full series,noise_burst,,,,0.143,,,,,,,,,,,,,,200,0.062438,42,0.7,2023-09-11 09:00:00,22,42
+stage3_iforest,detector_by_fault_type,rule_flat_run,full series,spike,,,,0.0,,,,,,,,,,,,,,200,0.062438,42,0.7,2023-09-11 09:00:00,22,42
+stage3_iforest,detector_by_fault_type,rule_flat_run,full series,stuck_at,,,,1.0,,,,,,,,,,,,,,200,0.062438,42,0.7,2023-09-11 09:00:00,22,42
+stage3_iforest,detector_by_fault_type,rule_flat_run,full series,bias,,,,0.0,,,,,,,,,,,,,,200,0.062438,42,0.7,2023-09-11 09:00:00,22,42
+stage3_iforest,detector_by_fault_type,rule_flat_run,full series,drift,,,,0.0,,,,,,,,,,,,,,200,0.062438,42,0.7,2023-09-11 09:00:00,22,42
+stage3_iforest,detector_by_fault_type,rule_flat_run,full series,noise_burst,,,,0.0,,,,,,,,,,,,,,200,0.062438,42,0.7,2023-09-11 09:00:00,22,42
+stage3_iforest,detector_by_fault_type,rule_step,full series,spike,,,,0.8,,,,,,,,,,,,,,200,0.062438,42,0.7,2023-09-11 09:00:00,22,42
+stage3_iforest,detector_by_fault_type,rule_step,full series,stuck_at,,,,0.0,,,,,,,,,,,,,,200,0.062438,42,0.7,2023-09-11 09:00:00,22,42
+stage3_iforest,detector_by_fault_type,rule_step,full series,bias,,,,0.083,,,,,,,,,,,,,,200,0.062438,42,0.7,2023-09-11 09:00:00,22,42
+stage3_iforest,detector_by_fault_type,rule_step,full series,drift,,,,0.078,,,,,,,,,,,,,,200,0.062438,42,0.7,2023-09-11 09:00:00,22,42
+stage3_iforest,detector_by_fault_type,rule_step,full series,noise_burst,,,,0.143,,,,,,,,,,,,,,200,0.062438,42,0.7,2023-09-11 09:00:00,22,42
+stage3_iforest,detector_by_fault_type,rule_combined,full series,spike,,,,0.8,,,,,,,,,,,,,,200,0.062438,42,0.7,2023-09-11 09:00:00,22,42
+stage3_iforest,detector_by_fault_type,rule_combined,full series,stuck_at,,,,1.0,,,,,,,,,,,,,,200,0.062438,42,0.7,2023-09-11 09:00:00,22,42
+stage3_iforest,detector_by_fault_type,rule_combined,full series,bias,,,,0.083,,,,,,,,,,,,,,200,0.062438,42,0.7,2023-09-11 09:00:00,22,42
+stage3_iforest,detector_by_fault_type,rule_combined,full series,drift,,,,0.078,,,,,,,,,,,,,,200,0.062438,42,0.7,2023-09-11 09:00:00,22,42
+stage3_iforest,detector_by_fault_type,rule_combined,full series,noise_burst,,,,0.143,,,,,,,,,,,,,,200,0.062438,42,0.7,2023-09-11 09:00:00,22,42
+stage3_iforest,ablation,isolation_forest (all 22),test,ALL,,54.0,0.07096774193548387,0.2037037037037037,0.10526315789473684,,,,,155.0,0.18044237485448195,0.536231884057971,,,,,,200,0.062438,42,0.7,2023-09-11 09:00:00,22,42
+stage3_iforest,ablation,isolation_forest (stationary 16),test,ALL,,54.0,0.09844559585492228,0.35185185185185186,0.15384615384615385,,,,,193.0,0.22467986030267753,0.6910052910052911,,,,,,200,0.062438,42,0.7,2023-09-11 09:00:00,22,42
+stage3_iforest,ablation,isolation_forest (all 22),full series,ALL,,179.0,0.1357142857142857,0.2122905027932961,0.1655773420479303,,,,,280.0,0.09786787836420832,0.6990426555684701,,,,,,200,0.062438,42,0.7,2023-09-11 09:00:00,22,42
+stage3_iforest,ablation,isolation_forest (stationary 16),full series,ALL,,179.0,0.14465408805031446,0.2569832402234637,0.1851106639839034,,,,,318.0,0.11114994757077945,0.7369364978191044,,,,,,200,0.062438,42,0.7,2023-09-11 09:00:00,22,42
+stage3_iforest,ablation_by_fault_type,isolation_forest (stationary),full series,spike,,,,0.867,,,,,,,,,,,,,,200,0.062438,42,0.7,2023-09-11 09:00:00,22,42
+stage3_iforest,ablation_by_fault_type,isolation_forest (stationary),full series,stuck_at,,,,0.095,,,,,,,,,,,,,,200,0.062438,42,0.7,2023-09-11 09:00:00,22,42
+stage3_iforest,ablation_by_fault_type,isolation_forest (stationary),full series,bias,,,,0.417,,,,,,,,,,,,,,200,0.062438,42,0.7,2023-09-11 09:00:00,22,42
+stage3_iforest,ablation_by_fault_type,isolation_forest (stationary),full series,drift,,,,0.176,,,,,,,,,,,,,,200,0.062438,42,0.7,2023-09-11 09:00:00,22,42
+stage3_iforest,ablation_by_fault_type,isolation_forest (stationary),full series,noise_burst,,,,0.143,,,,,,,,,,,,,,200,0.062438,42,0.7,2023-09-11 09:00:00,22,42
