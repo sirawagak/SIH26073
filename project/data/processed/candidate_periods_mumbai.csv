@@ -1,0 +1,25 @@
+variable,type,start,end,detail
+slp_hpa,step,2024-01-01 00:00:00,2024-01-01 00:00:00,change of nan in nan h
+slp_hpa,step,2024-01-01 00:30:00,2024-01-01 00:30:00,change of nan in 0.5 h
+slp_hpa,step,2024-01-01 01:00:00,2024-01-01 01:00:00,change of nan in 0.5 h
+rh_pct,step,2024-02-26 13:30:00,2024-02-26 13:30:00,change of 36.0 in 3.5 h
+all,missing_block,2024-03-27 17:30:00,2024-04-01 18:00:00,120.5 hour gap
+all,missing_block,2024-04-30 21:30:00,2024-05-01 22:00:00,24.5 hour gap
+rh_pct,step,2024-05-13 11:30:00,2024-05-13 11:30:00,change of 44.9 in 0.5 h
+temp_c,step,2024-05-13 11:30:00,2024-05-13 11:30:00,change of -7.0 in 0.5 h
+rh_pct,flat_run,2024-05-23 13:00:00,2024-05-23 21:00:00,17 constant readings at 84.1
+rh_pct,flat_run,2024-05-26 13:30:00,2024-05-26 22:00:00,18 constant readings at 79.3
+rh_pct,flat_run,2024-05-30 14:00:00,2024-05-30 22:00:00,17 constant readings at 79.3
+temp_c,flat_run,2024-06-02 14:30:00,2024-06-03 01:30:00,23 constant readings at 31.0
+temp_c,flat_run,2024-07-03 13:30:00,2024-07-04 02:30:00,27 constant readings at 29.0
+rh_pct,flat_run,2024-07-25 15:30:00,2024-07-26 00:30:00,19 constant readings at 88.8
+temp_c,flat_run,2024-07-26 10:30:00,2024-07-26 21:30:00,23 constant readings at 28.0
+all,missing_block,2024-08-11 20:30:00,2024-08-12 22:00:00,25.5 hour gap
+rh_pct,flat_run,2024-08-20 15:00:00,2024-08-21 00:30:00,19 constant readings at 83.7
+temp_c,flat_run,2024-08-20 15:00:00,2024-08-21 02:30:00,23 constant readings at 27.0
+temp_c,flat_run,2024-09-21 14:00:00,2024-09-22 01:00:00,23 constant readings at 28.0
+temp_c,step,2024-11-07 04:30:00,2024-11-07 04:30:00,change of -6.0 in 0.5 h
+temp_c,step,2024-11-07 05:00:00,2024-11-07 05:00:00,change of 8.0 in 0.5 h
+all,missing_block,2024-11-17 21:30:00,2024-11-21 22:00:00,96.5 hour gap
+all,missing_block,2024-11-30 21:30:00,2024-12-01 22:00:00,24.5 hour gap
+rh_pct,step,2024-12-18 14:00:00,2024-12-18 14:00:00,change of 38.8 in 6.0 h

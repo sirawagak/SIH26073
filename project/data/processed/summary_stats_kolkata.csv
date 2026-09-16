@@ -1,0 +1,4 @@
+,min,max,mean,median,std,missing_pct,n_valid
+temp_c,10.0,44.0,27.14,28.0,5.5,0.01,16837
+slp_hpa,,,,,,100.0,0
+rh_pct,18.23,100.0,75.53,79.2,16.14,0.01,16836
