@@ -1,0 +1,9 @@
+station,lat,environment,temp_pct,slp_pct,rh_pct_win,ties_pct
+Safdarjung (Delhi),28.6,"inland N, semi-arid",30.8,38.3,30.8,0.0
+Patiala,30.3,"inland N, Punjab plains",28.3,38.7,33.0,0.0
+Guwahati,26.1,"NE, very wet",30.2,37.0,32.8,0.0
+Ahmedabad,23.1,arid W,31.8,35.5,32.7,0.0
+Kolkata,22.6,"E delta, humid",33.1,35.2,31.7,0.0
+Mumbai,19.1,W coastal,31.3,37.7,31.0,0.0
+Chennai,13.0,SE coastal,34.4,32.8,32.8,0.0
+Thiruvananthapuram,8.5,far S coastal tropical,31.6,35.5,32.9,0.0

@@ -1,0 +1,7 @@
+,peak_response,peak_response,auc,auc,advantage
+feature,acc_w4,clim_short,acc_w4,clim_short,
+fault,,,,,
+bias(1.5s),2.226,2.397,0.957,0.963,short
+drift(3s),2.264,2.698,0.877,0.903,short
+noise_burst,0.842,2.4,0.738,0.872,short
+spike,1.783,8.274,0.843,1.0,short

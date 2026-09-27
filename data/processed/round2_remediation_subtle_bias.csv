@@ -1,0 +1,25 @@
+variant,sigma,episode_recall,recall,precision,alert_rate,margin,delay_obs
+"A0 baseline (frozen16, current thr)",0.5,0.65,0.1057,0.0766,0.0766,-0.0374,7.4722
+"A0 baseline (frozen16, current thr)",1.0,0.7111,0.1582,0.1149,0.0764,-0.0301,4.5556
+"A0 baseline (frozen16, current thr)",1.5,0.8167,0.2129,0.1539,0.0769,-0.0237,2.6389
+"A0 baseline (frozen16, current thr)",2.0,0.9278,0.2753,0.196,0.078,-0.0185,1.4722
+"A1 control (retrain16, current thr)",0.5,0.65,0.1057,0.0766,0.0766,-0.0374,7.4722
+"A1 control (retrain16, current thr)",1.0,0.7111,0.1582,0.1149,0.0764,-0.0301,4.5556
+"A1 control (retrain16, current thr)",1.5,0.8167,0.2129,0.1539,0.0769,-0.0237,2.6389
+"A1 control (retrain16, current thr)",2.0,0.9278,0.2753,0.196,0.078,-0.0185,1.4722
+"B  accumulated (retrain17, current)",0.5,0.6222,0.1313,0.0915,0.0797,-0.0364,6.6944
+"B  accumulated (retrain17, current)",1.0,0.7778,0.2401,0.1667,0.0799,-0.024,4.0833
+"B  accumulated (retrain17, current)",1.5,0.9,0.3552,0.2479,0.0795,-0.0133,2.9167
+"B  accumulated (retrain17, current)",2.0,0.9722,0.4623,0.3186,0.0806,-0.0049,2.1111
+"B3 ablation (retrain19, current)",0.5,0.6222,0.1428,0.106,0.0749,-0.0347,6.0
+"B3 ablation (retrain19, current)",1.0,0.7833,0.2563,0.1882,0.0757,-0.0216,4.1667
+"B3 ablation (retrain19, current)",1.5,0.9056,0.3706,0.2675,0.0766,-0.0116,3.3333
+"B3 ablation (retrain19, current)",2.0,0.9611,0.4527,0.3221,0.0779,-0.0046,1.9722
+C  immune threshold (frozen16),0.5,1.0,0.4839,0.071,0.3773,0.0013,1.0833
+C  immune threshold (frozen16),1.0,1.0,0.612,0.0873,0.3876,0.0102,0.5556
+C  immune threshold (frozen16),1.5,1.0,0.72,0.1012,0.3942,0.0187,0.25
+C  immune threshold (frozen16),2.0,1.0,0.79,0.1098,0.3982,0.0252,0.1667
+D  combined (retrain17 + immune),0.5,1.0,0.5196,0.0743,0.3888,0.0022,1.1111
+D  combined (retrain17 + immune),1.0,1.0,0.6635,0.0963,0.3814,0.0161,0.6389
+D  combined (retrain17 + immune),1.5,1.0,0.8023,0.116,0.3837,0.0317,0.2222
+D  combined (retrain17 + immune),2.0,1.0,0.8809,0.1248,0.3918,0.0444,0.1389

@@ -1,0 +1,4 @@
+condition,in_domain,temporal,station,gap_temporal,gap_station
+baseline16,0.4627,0.4214,0.4204,0.0413,0.0423
+clim_short17,0.5064,0.4334,0.4356,0.073,0.0708
+dual18(ref),0.5513,0.4206,0.4263,0.1307,0.125

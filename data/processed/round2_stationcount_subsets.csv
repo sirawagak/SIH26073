@@ -1,0 +1,129 @@
+held,k,subset,stations
+Safdarjung (Delhi),2,0,Patiala|Ahmedabad
+Safdarjung (Delhi),2,1,Patiala|Chennai
+Safdarjung (Delhi),2,2,Guwahati|Ahmedabad
+Safdarjung (Delhi),2,3,Ahmedabad|Mumbai
+Safdarjung (Delhi),2,4,Mumbai|Thiruvananthapuram
+Safdarjung (Delhi),4,0,Patiala|Guwahati|Ahmedabad|Chennai
+Safdarjung (Delhi),4,1,Patiala|Guwahati|Kolkata|Mumbai
+Safdarjung (Delhi),4,2,Guwahati|Mumbai|Chennai|Thiruvananthapuram
+Safdarjung (Delhi),4,3,Ahmedabad|Kolkata|Mumbai|Chennai
+Safdarjung (Delhi),4,4,Kolkata|Mumbai|Chennai|Thiruvananthapuram
+Safdarjung (Delhi),6,0,Patiala|Guwahati|Ahmedabad|Kolkata|Mumbai|Chennai
+Safdarjung (Delhi),6,1,Patiala|Guwahati|Ahmedabad|Kolkata|Chennai|Thiruvananthapuram
+Safdarjung (Delhi),6,2,Patiala|Guwahati|Ahmedabad|Mumbai|Chennai|Thiruvananthapuram
+Safdarjung (Delhi),6,3,Patiala|Ahmedabad|Kolkata|Mumbai|Chennai|Thiruvananthapuram
+Safdarjung (Delhi),6,4,Guwahati|Ahmedabad|Kolkata|Mumbai|Chennai|Thiruvananthapuram
+Safdarjung (Delhi),7,0,Patiala|Guwahati|Ahmedabad|Kolkata|Mumbai|Chennai|Thiruvananthapuram
+Patiala,2,0,Safdarjung (Delhi)|Guwahati
+Patiala,2,1,Safdarjung (Delhi)|Chennai
+Patiala,2,2,Guwahati|Chennai
+Patiala,2,3,Ahmedabad|Mumbai
+Patiala,2,4,Chennai|Thiruvananthapuram
+Patiala,4,0,Safdarjung (Delhi)|Guwahati|Kolkata|Mumbai
+Patiala,4,1,Safdarjung (Delhi)|Ahmedabad|Kolkata|Chennai
+Patiala,4,2,Safdarjung (Delhi)|Ahmedabad|Chennai|Thiruvananthapuram
+Patiala,4,3,Safdarjung (Delhi)|Mumbai|Chennai|Thiruvananthapuram
+Patiala,4,4,Ahmedabad|Mumbai|Chennai|Thiruvananthapuram
+Patiala,6,0,Safdarjung (Delhi)|Guwahati|Ahmedabad|Kolkata|Mumbai|Chennai
+Patiala,6,1,Safdarjung (Delhi)|Guwahati|Ahmedabad|Kolkata|Mumbai|Thiruvananthapuram
+Patiala,6,2,Safdarjung (Delhi)|Guwahati|Ahmedabad|Kolkata|Chennai|Thiruvananthapuram
+Patiala,6,3,Safdarjung (Delhi)|Guwahati|Kolkata|Mumbai|Chennai|Thiruvananthapuram
+Patiala,6,4,Safdarjung (Delhi)|Ahmedabad|Kolkata|Mumbai|Chennai|Thiruvananthapuram
+Patiala,7,0,Safdarjung (Delhi)|Guwahati|Ahmedabad|Kolkata|Mumbai|Chennai|Thiruvananthapuram
+Guwahati,2,0,Safdarjung (Delhi)|Ahmedabad
+Guwahati,2,1,Safdarjung (Delhi)|Mumbai
+Guwahati,2,2,Safdarjung (Delhi)|Chennai
+Guwahati,2,3,Safdarjung (Delhi)|Thiruvananthapuram
+Guwahati,2,4,Patiala|Kolkata
+Guwahati,4,0,Safdarjung (Delhi)|Patiala|Mumbai|Thiruvananthapuram
+Guwahati,4,1,Safdarjung (Delhi)|Ahmedabad|Kolkata|Mumbai
+Guwahati,4,2,Safdarjung (Delhi)|Ahmedabad|Kolkata|Thiruvananthapuram
+Guwahati,4,3,Patiala|Ahmedabad|Kolkata|Mumbai
+Guwahati,4,4,Patiala|Mumbai|Chennai|Thiruvananthapuram
+Guwahati,6,0,Safdarjung (Delhi)|Patiala|Ahmedabad|Kolkata|Mumbai|Thiruvananthapuram
+Guwahati,6,1,Safdarjung (Delhi)|Patiala|Ahmedabad|Kolkata|Chennai|Thiruvananthapuram
+Guwahati,6,2,Safdarjung (Delhi)|Patiala|Ahmedabad|Mumbai|Chennai|Thiruvananthapuram
+Guwahati,6,3,Safdarjung (Delhi)|Ahmedabad|Kolkata|Mumbai|Chennai|Thiruvananthapuram
+Guwahati,6,4,Patiala|Ahmedabad|Kolkata|Mumbai|Chennai|Thiruvananthapuram
+Guwahati,7,0,Safdarjung (Delhi)|Patiala|Ahmedabad|Kolkata|Mumbai|Chennai|Thiruvananthapuram
+Ahmedabad,2,0,Safdarjung (Delhi)|Mumbai
+Ahmedabad,2,1,Safdarjung (Delhi)|Chennai
+Ahmedabad,2,2,Guwahati|Kolkata
+Ahmedabad,2,3,Mumbai|Thiruvananthapuram
+Ahmedabad,2,4,Chennai|Thiruvananthapuram
+Ahmedabad,4,0,Safdarjung (Delhi)|Patiala|Guwahati|Chennai
+Ahmedabad,4,1,Safdarjung (Delhi)|Guwahati|Kolkata|Chennai
+Ahmedabad,4,2,Safdarjung (Delhi)|Kolkata|Mumbai|Chennai
+Ahmedabad,4,3,Patiala|Kolkata|Mumbai|Chennai
+Ahmedabad,4,4,Guwahati|Kolkata|Chennai|Thiruvananthapuram
+Ahmedabad,6,0,Safdarjung (Delhi)|Patiala|Guwahati|Kolkata|Mumbai|Chennai
+Ahmedabad,6,1,Safdarjung (Delhi)|Patiala|Guwahati|Kolkata|Chennai|Thiruvananthapuram
+Ahmedabad,6,2,Safdarjung (Delhi)|Patiala|Guwahati|Mumbai|Chennai|Thiruvananthapuram
+Ahmedabad,6,3,Safdarjung (Delhi)|Patiala|Kolkata|Mumbai|Chennai|Thiruvananthapuram
+Ahmedabad,6,4,Safdarjung (Delhi)|Guwahati|Kolkata|Mumbai|Chennai|Thiruvananthapuram
+Ahmedabad,7,0,Safdarjung (Delhi)|Patiala|Guwahati|Kolkata|Mumbai|Chennai|Thiruvananthapuram
+Kolkata,2,0,Safdarjung (Delhi)|Chennai
+Kolkata,2,1,Patiala|Thiruvananthapuram
+Kolkata,2,2,Guwahati|Ahmedabad
+Kolkata,2,3,Mumbai|Thiruvananthapuram
+Kolkata,2,4,Chennai|Thiruvananthapuram
+Kolkata,4,0,Safdarjung (Delhi)|Patiala|Ahmedabad|Thiruvananthapuram
+Kolkata,4,1,Safdarjung (Delhi)|Ahmedabad|Mumbai|Chennai
+Kolkata,4,2,Patiala|Guwahati|Ahmedabad|Mumbai
+Kolkata,4,3,Guwahati|Ahmedabad|Mumbai|Thiruvananthapuram
+Kolkata,4,4,Guwahati|Mumbai|Chennai|Thiruvananthapuram
+Kolkata,6,0,Safdarjung (Delhi)|Patiala|Guwahati|Ahmedabad|Mumbai|Chennai
+Kolkata,6,1,Safdarjung (Delhi)|Patiala|Guwahati|Ahmedabad|Chennai|Thiruvananthapuram
+Kolkata,6,2,Safdarjung (Delhi)|Patiala|Guwahati|Mumbai|Chennai|Thiruvananthapuram
+Kolkata,6,3,Safdarjung (Delhi)|Patiala|Ahmedabad|Mumbai|Chennai|Thiruvananthapuram
+Kolkata,6,4,Patiala|Guwahati|Ahmedabad|Mumbai|Chennai|Thiruvananthapuram
+Kolkata,7,0,Safdarjung (Delhi)|Patiala|Guwahati|Ahmedabad|Mumbai|Chennai|Thiruvananthapuram
+Mumbai,2,0,Safdarjung (Delhi)|Patiala
+Mumbai,2,1,Safdarjung (Delhi)|Thiruvananthapuram
+Mumbai,2,2,Patiala|Thiruvananthapuram
+Mumbai,2,3,Kolkata|Chennai
+Mumbai,2,4,Kolkata|Thiruvananthapuram
+Mumbai,4,0,Safdarjung (Delhi)|Patiala|Guwahati|Kolkata
+Mumbai,4,1,Safdarjung (Delhi)|Patiala|Ahmedabad|Chennai
+Mumbai,4,2,Safdarjung (Delhi)|Guwahati|Ahmedabad|Kolkata
+Mumbai,4,3,Safdarjung (Delhi)|Guwahati|Kolkata|Chennai
+Mumbai,4,4,Ahmedabad|Kolkata|Chennai|Thiruvananthapuram
+Mumbai,6,0,Safdarjung (Delhi)|Patiala|Guwahati|Ahmedabad|Kolkata|Thiruvananthapuram
+Mumbai,6,1,Safdarjung (Delhi)|Patiala|Guwahati|Ahmedabad|Chennai|Thiruvananthapuram
+Mumbai,6,2,Safdarjung (Delhi)|Patiala|Ahmedabad|Kolkata|Chennai|Thiruvananthapuram
+Mumbai,6,3,Safdarjung (Delhi)|Guwahati|Ahmedabad|Kolkata|Chennai|Thiruvananthapuram
+Mumbai,6,4,Patiala|Guwahati|Ahmedabad|Kolkata|Chennai|Thiruvananthapuram
+Mumbai,7,0,Safdarjung (Delhi)|Patiala|Guwahati|Ahmedabad|Kolkata|Chennai|Thiruvananthapuram
+Chennai,2,0,Safdarjung (Delhi)|Thiruvananthapuram
+Chennai,2,1,Patiala|Guwahati
+Chennai,2,2,Patiala|Kolkata
+Chennai,2,3,Patiala|Mumbai
+Chennai,2,4,Ahmedabad|Mumbai
+Chennai,4,0,Safdarjung (Delhi)|Patiala|Ahmedabad|Kolkata
+Chennai,4,1,Safdarjung (Delhi)|Patiala|Mumbai|Thiruvananthapuram
+Chennai,4,2,Safdarjung (Delhi)|Guwahati|Kolkata|Mumbai
+Chennai,4,3,Patiala|Guwahati|Ahmedabad|Mumbai
+Chennai,4,4,Patiala|Guwahati|Kolkata|Thiruvananthapuram
+Chennai,6,0,Safdarjung (Delhi)|Patiala|Guwahati|Ahmedabad|Kolkata|Mumbai
+Chennai,6,1,Safdarjung (Delhi)|Patiala|Guwahati|Ahmedabad|Kolkata|Thiruvananthapuram
+Chennai,6,2,Safdarjung (Delhi)|Patiala|Ahmedabad|Kolkata|Mumbai|Thiruvananthapuram
+Chennai,6,3,Safdarjung (Delhi)|Guwahati|Ahmedabad|Kolkata|Mumbai|Thiruvananthapuram
+Chennai,6,4,Patiala|Guwahati|Ahmedabad|Kolkata|Mumbai|Thiruvananthapuram
+Chennai,7,0,Safdarjung (Delhi)|Patiala|Guwahati|Ahmedabad|Kolkata|Mumbai|Thiruvananthapuram
+Thiruvananthapuram,2,0,Safdarjung (Delhi)|Patiala
+Thiruvananthapuram,2,1,Safdarjung (Delhi)|Chennai
+Thiruvananthapuram,2,2,Guwahati|Kolkata
+Thiruvananthapuram,2,3,Ahmedabad|Mumbai
+Thiruvananthapuram,2,4,Mumbai|Chennai
+Thiruvananthapuram,4,0,Safdarjung (Delhi)|Patiala|Kolkata|Mumbai
+Thiruvananthapuram,4,1,Safdarjung (Delhi)|Ahmedabad|Kolkata|Chennai
+Thiruvananthapuram,4,2,Safdarjung (Delhi)|Ahmedabad|Mumbai|Chennai
+Thiruvananthapuram,4,3,Safdarjung (Delhi)|Kolkata|Mumbai|Chennai
+Thiruvananthapuram,4,4,Guwahati|Kolkata|Mumbai|Chennai
+Thiruvananthapuram,6,0,Safdarjung (Delhi)|Patiala|Guwahati|Ahmedabad|Kolkata|Mumbai
+Thiruvananthapuram,6,1,Safdarjung (Delhi)|Patiala|Guwahati|Ahmedabad|Mumbai|Chennai
+Thiruvananthapuram,6,2,Safdarjung (Delhi)|Patiala|Guwahati|Kolkata|Mumbai|Chennai
+Thiruvananthapuram,6,3,Safdarjung (Delhi)|Guwahati|Ahmedabad|Kolkata|Mumbai|Chennai
+Thiruvananthapuram,6,4,Patiala|Guwahati|Ahmedabad|Kolkata|Mumbai|Chennai
+Thiruvananthapuram,7,0,Safdarjung (Delhi)|Patiala|Guwahati|Ahmedabad|Kolkata|Mumbai|Chennai

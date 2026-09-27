@@ -1,0 +1,17 @@
+station_id,name,lat,lon,elevation_m,environment,year,rows,file,source
+42182099999,Safdarjung (Delhi),28.58,77.21,215,"inland N, semi-arid",2023,2861,42182099999_2023.csv,https://www.ncei.noaa.gov/data/global-hourly/access/2023/42182099999.csv
+42182099999,Safdarjung (Delhi),28.58,77.21,215,"inland N, semi-arid",2024,2756,42182099999_2024.csv,https://www.ncei.noaa.gov/data/global-hourly/access/2024/42182099999.csv
+42101099999,Patiala,30.33,76.47,251,"inland N, Punjab plains",2023,2827,42101099999_2023.csv,https://www.ncei.noaa.gov/data/global-hourly/access/2023/42101099999.csv
+42101099999,Patiala,30.33,76.47,251,"inland N, Punjab plains",2024,2755,42101099999_2024.csv,https://www.ncei.noaa.gov/data/global-hourly/access/2024/42101099999.csv
+42410099999,Guwahati,26.11,91.59,49,"NE, very wet",2023,2832,42410099999_2023.csv,https://www.ncei.noaa.gov/data/global-hourly/access/2023/42410099999.csv
+42410099999,Guwahati,26.11,91.59,49,"NE, very wet",2024,2768,42410099999_2024.csv,https://www.ncei.noaa.gov/data/global-hourly/access/2024/42410099999.csv
+42647099999,Ahmedabad,23.08,72.63,58,arid W,2023,2880,42647099999_2023.csv,https://www.ncei.noaa.gov/data/global-hourly/access/2023/42647099999.csv
+42647099999,Ahmedabad,23.08,72.63,58,arid W,2024,2776,42647099999_2024.csv,https://www.ncei.noaa.gov/data/global-hourly/access/2024/42647099999.csv
+42809099999,Kolkata,22.65,88.45,5,"E delta, humid",2023,2871,42809099999_2023.csv,https://www.ncei.noaa.gov/data/global-hourly/access/2023/42809099999.csv
+42809099999,Kolkata,22.65,88.45,5,"E delta, humid",2024,2766,42809099999_2024.csv,https://www.ncei.noaa.gov/data/global-hourly/access/2024/42809099999.csv
+43003099999,Mumbai,19.09,72.87,11,W coastal,2023,2880,43003099999_2023.csv,https://www.ncei.noaa.gov/data/global-hourly/access/2023/43003099999.csv
+43003099999,Mumbai,19.09,72.87,11,W coastal,2024,2775,43003099999_2024.csv,https://www.ncei.noaa.gov/data/global-hourly/access/2024/43003099999.csv
+43279099999,Chennai,12.99,80.18,16,SE coastal,2023,2863,43279099999_2023.csv,https://www.ncei.noaa.gov/data/global-hourly/access/2023/43279099999.csv
+43279099999,Chennai,12.99,80.18,16,SE coastal,2024,2749,43279099999_2024.csv,https://www.ncei.noaa.gov/data/global-hourly/access/2024/43279099999.csv
+43371099999,Thiruvananthapuram,8.48,76.95,64,far S coastal tropical,2023,2875,43371099999_2023.csv,https://www.ncei.noaa.gov/data/global-hourly/access/2023/43371099999.csv
+43371099999,Thiruvananthapuram,8.48,76.95,64,far S coastal tropical,2024,2756,43371099999_2024.csv,https://www.ncei.noaa.gov/data/global-hourly/access/2024/43371099999.csv

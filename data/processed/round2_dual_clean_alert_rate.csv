@@ -1,0 +1,5 @@
+condition,n_features,clean_alert_rate,n_flagged
+A baseline (16),16,0.0772,221
+B +acc_w4 (17),17,0.0804,230
+C +clim_short (17),17,0.0776,222
+D dual-timescale (18),18,0.0727,208

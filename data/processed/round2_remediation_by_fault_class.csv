@@ -1,0 +1,9 @@
+fault_type,"A0 baseline (frozen16, current thr)","A1 control (retrain16, current thr)","B  accumulated (retrain17, current)","B3 ablation (retrain19, current)",C  immune threshold (frozen16),D  combined (retrain17 + immune)
+bias,0.5,0.5,0.333,0.5,1.0,1.0
+bias_plus_spikes,1.0,1.0,1.0,1.0,1.0,1.0
+drift,1.0,1.0,0.833,1.0,1.0,1.0
+drift_plus_noise,1.0,1.0,1.0,1.0,1.0,1.0
+intermittent_spikes,1.0,1.0,1.0,1.0,1.0,1.0
+noise_burst,0.833,0.833,0.5,0.5,1.0,1.0
+spike,0.875,0.875,0.792,0.833,1.0,1.0
+stuck_at,0.833,0.833,0.833,1.0,1.0,1.0

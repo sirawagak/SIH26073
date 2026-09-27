@@ -22,3 +22,13 @@ env/
 # Editors / IDEs
 .vscode/
 .idea/
+
+# --- application layer ---
+# Secrets: .env is already ignored above; .env.example IS committed.
+node_modules/
+frontend/dist/
+frontend/node_modules/
+*.egg-info/
+.pytest_cache/
+# stale mis-named cache dir that once shadowed src/inference.py
+__pycache___/

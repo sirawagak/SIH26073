@@ -1,0 +1,7 @@
+variant,precision,recall,f1,episode_recall,alert_rate,delay_obs,mean_score,mean_thr,margin
+"A0 baseline (frozen16, current thr)",0.1867,0.2717,0.221,0.838,0.079,2.8796,0.4894,0.5111,-0.0217
+"A1 control (retrain16, current thr)",0.1867,0.2717,0.221,0.838,0.079,2.8796,0.4894,0.5111,-0.0217
+"B  accumulated (retrain17, current)",0.2819,0.4248,0.3384,0.8787,0.0822,2.9167,0.5035,0.514,-0.0105
+"B3 ablation (retrain19, current)",0.2872,0.4157,0.3392,0.8787,0.0788,2.8333,0.4992,0.5093,-0.0102
+C  immune threshold (frozen16),0.1028,0.7337,0.1802,1.0,0.3938,0.3519,0.4894,0.4676,0.0218
+D  combined (retrain17 + immune),0.1144,0.8071,0.2004,1.0,0.3906,0.3565,0.5035,0.4654,0.0381
