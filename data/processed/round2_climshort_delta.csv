@@ -1,0 +1,7 @@
+scenario,condition,d_f1,d_precision,d_recall,d_fpr,d_clean_alert,d_episode_recall
+in_domain,clim_short17,0.0437,0.0517,0.0377,-0.0056,-0.0007,0.0528
+in_domain,dual18(ref),0.0886,0.1158,0.0713,-0.0136,0.0005,0.0632
+temporal,clim_short17,0.012,0.0104,0.0123,-0.0004,0.0027,0.0257
+temporal,dual18(ref),-0.0008,-0.015,0.0062,0.0045,0.0085,0.0006
+station,clim_short17,0.0152,0.0127,0.0155,-0.0004,0.003,0.0389
+station,dual18(ref),0.0059,-0.0132,0.0152,0.0055,0.0094,0.0118

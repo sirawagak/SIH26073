@@ -1,0 +1,7 @@
+variant,precision,recall,f1,alert_rate,clean_false_alarm_rate
+"A0 baseline (frozen16, current thr)",0.5867,0.4025,0.4775,0.0947,0.0772
+"A1 control (retrain16, current thr)",0.5867,0.4025,0.4775,0.0947,0.0772
+"B  accumulated (retrain17, current)",0.6044,0.4177,0.494,0.0954,0.0804
+C  immune threshold (frozen16),0.2526,0.8025,0.3842,0.4387,0.3677
+D  combined (retrain17 + immune),0.2365,0.8304,0.3681,0.4848,0.3729
+"B3 ablation (retrain19, current)",0.6093,0.4304,0.5045,0.0975,0.0748

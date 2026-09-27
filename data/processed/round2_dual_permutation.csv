@@ -1,0 +1,5 @@
+condition,permuted,f1_intact,f1_permuted,drop,score_shift
+B +acc_w4 (17),acc_w4,0.494,0.4375,0.0565,0.00813
+C +clim_short (17),clim_short,0.5449,0.4536,0.0913,0.00761
+D dual-timescale (18),clim_short,0.5515,0.4918,0.0598,0.00726
+D dual-timescale (18),acc_w4,0.5515,0.531,0.0205,0.00643

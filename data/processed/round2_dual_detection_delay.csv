@@ -1,0 +1,7 @@
+,median,median,mean,mean,n,n
+family,persistent,transient,persistent,transient,persistent,transient
+condition,,,,,,
+A baseline (16),1.0,0.0,2.802,0.095,150,150
+B +acc_w4 (17),1.0,0.0,3.308,0.047,150,150
+C +clim_short (17),1.0,0.0,2.744,0.036,150,150
+D dual-timescale (18),1.0,0.0,2.943,0.036,150,150

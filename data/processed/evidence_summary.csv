@@ -1,0 +1,40 @@
+domain,claim,evidence_level,source,metric,limitation,safe_wording,do_not_say
+core,Detects injected sensor anomalies,A,nb02 Stage 6,F1 0.3165; P 0.2588; R 0.4074,synthetic faults; oracle contamination,Detects injected sensor anomalies; F1 0.3165 on a held-out split,High accuracy at detecting sensor faults
+core,Every injected episode detected,B,nb02 Stage 6,episode recall 1.00,chance floor 0.35-0.45,Episode recall 1.00 against a 0.35-0.45 chance floor,Catches 100% of faults
+core,Spike detection,A,nb03/nb06,0.875-0.917 episode recall,easiest class,Spikes detected reliably in simulation,Perfect spike detection
+core,Stuck-at detection,A,nb03/nb09,0.833-0.967,blind to short freezes on high-precision variables,Frozen sensors caught by an explicit rule,Catches all stuck sensors
+core,Drift detection,B,nb08,0.604 -> 0.736 with clim_short,hardest persistent class,Drift detection improves with the cross-sensor feature,Reliable drift detection
+core,Bias detection,B,nb04/nb08,0.326 -> 0.444,was below chance in baseline,Subtle bias is the weakest class; improved but still weak,Detects calibration drift reliably
+core,Noise-burst detection,B,nb03/nb06,0.660-0.867,seed-sensitive,Noise bursts detected in simulation,-
+core,Compound faults,B,nb03/nb06,0.800-1.000,caught via transient component,"Compound faults detected, usually via their transient part",Detects compound faults as such
+core,Adaptive threshold beats fixed,A,nb06,alert sd 9.32->2.85pp; FP 175->63,threshold rises with persistent faults,Adaptive threshold cut false positives 64%,Eliminates false alarms
+core,Flat-run rule catches frozen sensors,A,nb04/nb05,recall 1.00 at 93% precision; IF 0.00,hard minimum length,Rule catches what the forest structurally cannot,Catches all stuck sensors
+core,IF blind to constant offset,A,nb04,15/16 features unmoved; clim_dev 3.3-5.1 sigma,-,"Structural blind spot, diagnosed and measured",-
+cross_sensor,Cross-sensor max beats every single variable,A,nb08,max_all +0.0152; temp -0.0033; slp -0.0065; rh -0.0118,"station-OOD, synthetic","A SkyGuard design feature: aggregation, not one sensor, provides the gain",Novel / first / state of the art
+cross_sensor,No single variable dominates,A,nb08,"temp 28-34%, slp 33-39%, rh 31-33%",8 Indian stations,All three sensors contribute comparably,It is a temperature score
+cross_sensor,clim_short stable across stations,B,nb08,CV 0.024 (2023) vs 0.081 (2024),2023 is in-sample; doubles out-of-sample,Stable across stations within the fitted year,Stable everywhere
+station_cal,Station calibration required,A,nb07,inflation 1.45x-3.61x,8 stations,Transferring climatology inflates deviations 1.45-3.61x,Works anywhere out of the box
+station_cal,Pipeline parity with production,A,nb07/nb09,max |diff| 0.00e+00,-,Multi-station pipeline is the production pipeline,-
+generalization,clim_short17 improves all three regimes,B,nb08/nb09,+0.009 to +0.015 OOD F1; p 0.0013-0.026,synthetic; 8 Indian stations,"Significant at every training size, near-zero FPR cost",Large improvement
+generalization,clim_short gap larger than baseline,A,nb08,0.071-0.073 vs 0.041-0.042,-,"Smaller gap than dual18, still larger than baseline",Best generalization
+generalization,dual18 is a general improvement,E,nb07,+0.090 in-domain -> +0.009 OOD; gap 0.125,-,Rejected,Dual-timescale improves the detector
+generalization,Training diversity closes the gap,E,nb09,"+0.003, p=0.17",2-7 stations only,"Rejected: representation limit, not data volume",More stations will fix generalization
+generalization,8/8 station improvement,E,nb09,replicated as 6/8,per-station sd 0.0206 vs 0.0093 effect,Retired; use the pooled paired effect,Improves every station
+injection,"8 fault classes, reproducible, label-correct",A,src/fault_injection.py; tests,22/22 checks,-,Controlled simulation evidence,Real-world fault accuracy
+injection,Round-1 benchmark preserved,A,nb03,27 episodes / 179 rows,-,Bit-for-bit reproducible,-
+injection,Real-world sensor-fault accuracy,E,-,-,no real labelled faults exist,Real-world validation is outstanding,Field-validated / proven in production
+explainability,"Explains mechanism, sensor, margin, reliability",B,/predict payload,"score, threshold, detector_used, variable, notes, degraded",no feature attribution,"Reports which detector fired, on which sensor, how far past threshold",Explainable AI / shows why
+explainability,Feature attribution,D,-,-,not implemented,-,Shows which feature caused it
+evolution,Onset more salient than persistent state,A,nb04,1.6-2.9x per-row flag probability,-,Onset and persistent state both detectable,-
+evolution,Detection delay as a headline metric,C,nb06/nb07,0.0 in headline rows,transients dominate the median,Report delay split transient vs persistent,Fast detection
+evolution,Early warning before threshold crossing,D,-,-,not demonstrated,-,Predictive maintenance / forecasts failures
+data_quality,Gaps and irregular sampling handled,A,src/inference.py,gap_hours; steps blanked when interval != 3h,-,"Irregular sampling neutralised, not misread as a fault",-
+data_quality,Dropout distinguishable from fault,B,probe: 18h gap -> 3 rows noted,notes text emitted,not surfaced as a category,Information exists in the pipeline,Classifies data-quality events
+data_quality,Explicit gap-vs-fault classification,D,-,-,"app work, no ML change needed",-,Separates data quality from sensor faults today
+prototype,Working full-stack prototype,A,tests/test_slice1.py + browser,13/13 passing,-,Working prototype: React + FastAPI + PostgreSQL + SuperTokens,Production-ready / deployed
+prototype,Authenticated predict preserves ML contract,A,test_slice1,byte-identical to sample_output.json,-,ML contract unchanged by the app layer,-
+prototype,RBAC enforced server-side,A,test_slice1,VIEWER 403; header forgery blocked,reviewer isolation untested (tables absent),"Authorization enforced in FastAPI, never the frontend",Full RBAC implemented
+prototype,Production readiness,E,Domain 11,demo core; no HTTPS; 12-month sessions,-,Prototype only,Production-grade / secure / scalable
+security,Cookies lack Secure flag,A,observed Set-Cookie,HttpOnly; SameSite=lax; no Secure,N/A on localhost,Needs HTTPS before any non-local use,-
+security,Demo SuperTokens core,A,try.supertokens.com,"shared, rate-limited, wiped",-,Development core only,-
+security,CORS + role forgery protection sound,A,live probe,foreign origin rejected; X-Role ignored,-,Verified sound,-

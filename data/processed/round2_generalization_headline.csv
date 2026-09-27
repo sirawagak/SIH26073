@@ -1,0 +1,7 @@
+scenario,condition,f1,precision,recall,episode_recall,fpr,clean_alert,delay
+in_domain,baseline16,0.4585,0.5619,0.3875,0.8047,0.0481,0.0728,0.0
+in_domain,dual18,0.5487,0.6775,0.4616,0.8645,0.035,0.0733,0.0
+station,baseline16,0.423,0.5202,0.3571,0.7364,0.0548,0.0751,0.0
+station,dual18,0.4323,0.5123,0.3747,0.7448,0.0594,0.0845,0.0
+temporal,baseline16,0.4243,0.5216,0.358,0.7323,0.0544,0.0737,0.0
+temporal,dual18,0.4332,0.5173,0.3731,0.7399,0.0577,0.0822,0.0

@@ -1,0 +1,14 @@
+benchmark,fault_type,episodes,detected,episode_recall,chance,skill_vs_chance,rows,median_delay_obs,median_delay_h
+baseline,bias,3,3,1.0,0.655,0.345,36,4.0,12.0
+baseline,drift,3,3,1.0,0.776,0.224,51,3.0,9.0
+baseline,noise_burst,3,2,0.667,0.648,0.019,35,2.5,7.5
+baseline,spike,15,13,0.867,0.086,0.781,15,0.0,0.0
+baseline,stuck_at,3,3,1.0,0.714,0.286,42,0.0,0.0
+challenge,bias,6,3,0.5,0.638,-0.138,62,3.0,9.0
+challenge,bias_plus_spikes,3,3,1.0,0.726,0.274,40,0.0,0.0
+challenge,drift,6,6,1.0,0.75,0.25,84,9.0,27.0
+challenge,drift_plus_noise,3,3,1.0,0.713,0.287,38,7.0,21.0
+challenge,intermittent_spikes,6,6,1.0,0.282,0.718,20,0.0,0.0
+challenge,noise_burst,6,5,0.833,0.604,0.229,56,1.0,3.0
+challenge,spike,24,21,0.875,0.126,0.749,33,0.0,0.0
+challenge,stuck_at,6,5,0.833,0.622,0.211,62,0.0,0.0
